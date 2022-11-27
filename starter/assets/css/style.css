@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* set the style of header on the page */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +21,12 @@ header h1 {
     font-size: 48px;
 }
 
+/* set the color of the seo letters different to h1 heading */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* set the style of navigation tabs in the header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,11 +36,11 @@ header nav {
 }
 
 header nav ul {
-    list-style-type: none;
+    list-style-type: none; /* no bullets for the listed items*/
 }
 
 header nav ul li {
-    display: inline-block;
+    display: inline-block; /* set the display of the listed items inline-block*/
     margin-left: 25px;
 }
 
@@ -50,6 +53,7 @@ p {
     font-size: 16px;
 }
 
+/* set the style of the large background picture under header */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,6 +61,31 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* set the style of 3 sections in the main part of page */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.section img {
+    max-height: 200px;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -69,12 +98,7 @@ p {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* set the style of the aside part on the page */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -96,30 +120,14 @@ aside {
     text-align: center;
 }
 
+/* set the style of images in the aside part of page */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.section img {
-    max-height: 200px;
-}
-
-.section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* set the style of footer on the page */
 footer {
     padding: 30px;
     clear: both;
