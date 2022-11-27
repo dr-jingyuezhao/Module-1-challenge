@@ -27,7 +27,7 @@ Not applicable.
 
 The modified website will look as the screenshot.  
 
-![alt text](assets/01-html-css-git-challenge-demo.png)
+![website demo](Assets/01-html-css-git-challenge-demo.png)
 
 
 ## Credits
